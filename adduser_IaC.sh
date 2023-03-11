@@ -35,7 +35,7 @@ useradd carlos -c "Carlos Silva" -s /bin/bash -m -p $(openssl passwd senha1234) 
 useradd maria -c "Maria José" -s /bin/bash -m -p $(openssl passwd senha1234) -G GRP_ADM && passwd maria -e
 useradd joao -c "João Carlos" -s /bin/bash -m -p $(openssl passwd senha1234) -G GRP_ADM && passwd joao -e
 
-useradd debora -c "Déborea Sousa" -s /bin/bash -m -p $(openssl passwd senha1234)  -G GRP_VEN  && passwd debora -e
+useradd debora -c "Débora Sousa" -s /bin/bash -m -p $(openssl passwd senha1234)  -G GRP_VEN  && passwd debora -e
 useradd sebastiana -c "Sebastiana Moreira" -s /bin/bash -m -p $(openssl passwd senha1234)  -G GRP_VEN  && passwd sebastiana -e
 useradd roberto -c "Roberto da Silva Carlos" -s /bin/bash -m -p $(openssl passwd senha1234)  -G GRP_VEN  && passwd roberto -e
 
